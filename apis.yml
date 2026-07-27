@@ -1,7 +1,14 @@
 aid: housable
 name: Housable
-description: Housable is a company surfaced as a portfolio company of kindred-ventures and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Housable is a California-focused proptech company that helps rental-property owners and operators
+  develop Accessory Dwelling Units (ADUs) as a portfolio value-add strategy. Its platform manages ADU
+  projects end to end — from concept and financial feasibility analysis through design, permitting,
+  bidding, construction, and lease-up — and lets operators run many parallel developments across their
+  properties at once, converting underused spaces such as leasing offices, garages, and parking areas
+  into new rental units alongside ground-up ADU construction. Housable is an early-stage startup backed
+  by Kindred Ventures and other seed investors. It is catalogued in the API Evangelist network as a
+  company profile; it does not currently publish a public API, developer portal, or SDKs.
 url: https://raw.githubusercontent.com/api-evangelist/housable/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +16,31 @@ x-backed-by:
 - kindred-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://www.housable.com/Housable_Favicon.png
 tags:
 - Company
+- ADU
+- Accessory Dwelling Units
+- Real Estate
+- PropTech
+- Construction
+- Property Management
+- Housing
+- California
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +49,25 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://housable.com/
+  url: https://www.housable.com/
+- type: SignUp
+  url: https://www.housable.com/signup
+- type: Login
+  url: https://www.housable.com/login
+- type: Support
+  url: https://www.housable.com/contact
+- type: Blog
+  url: https://learn.housable.com/
+- type: TermsOfService
+  url: https://www.housable.com/terms-of-service
+- type: PrivacyPolicy
+  url: https://www.housable.com/privacy-policy
+- type: LinkedIn
+  url: https://www.linkedin.com/company/housable-inc
+- type: DomainSecurity
+  url: security/housable-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
