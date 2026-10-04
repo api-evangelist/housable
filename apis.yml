@@ -46,7 +46,7 @@ tags:
 - Company
 - ADU
 - Accessory Dwelling Units
-- Real-Estate
+- Real Estate
 - PropTech
 - Construction
 - Property Management
@@ -62,6 +62,7 @@ tags_raw:
 - Property Management
 - Housing
 - California
+- Real-Estate
 apis: []
 maintainers:
 - FN: Kin Lane
